@@ -1,13 +1,18 @@
 /*index.css*/
 /* Styles defined for the desktop or the bigger screen devices*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
 body { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Fredoka', sans-serif; 
+    font-weight: 400;
 } 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+}
 
 /* Header Navbar Styles */
 .navbar { 
@@ -199,6 +204,7 @@ body {
     width: 80%; 
     padding: 10px 0; 
     margin: 1.67rem 0; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .contact-form .form-btn { 
@@ -248,15 +254,10 @@ body {
     list-style: none; 
 } 
 
-
-
-
-
-
 /* utility classes */
 .greet-heading { 
     font-size: 1.3rem; 
-    font-weight: lighter; 
+    font-weight: 300; 
     margin: 0; 
     letter-spacing: 1px; 
 } 
@@ -270,7 +271,7 @@ body {
     margin: 0; 
     font-size: 0.8rem; 
     color: #ccc; 
-    font-weight: lighter; 
+    font-weight: 300; 
 } 
 
 .links:hover { 
@@ -291,6 +292,7 @@ body {
     cursor: pointer; 
     letter-spacing: 1px; 
     border: none; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .common-btn { 
