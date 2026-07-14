@@ -1,35 +1,19 @@
 /*index.css*/
 /* Styles defined for the desktop or the bigger screen devices*/
-/* Apply Fredoka font everywhere */
-* {
-    font-family: "Fredoka", sans-serif;
-}
+
 body { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
-    font-family: "Fredoka", sans-serif; 
+    font-family: 'Fredoka', sans-serif; 
+    font-weight: 400;
 } 
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
 }
 
-.intro {
-    text-align: center;
-}
-
-.headings {
-    text-align: center;
-}
-
-.greet-heading,
-.my-heading,
-.sub-heading {
-    text-align: center;
-}
 /* Header Navbar Styles */
 .navbar { 
     display: flex; 
@@ -220,6 +204,7 @@ body {
     width: 80%; 
     padding: 10px 0; 
     margin: 1.67rem 0; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .contact-form .form-btn { 
@@ -269,15 +254,10 @@ body {
     list-style: none; 
 } 
 
-
-
-
-
-
 /* utility classes */
 .greet-heading { 
     font-size: 1.3rem; 
-    font-weight: lighter; 
+    font-weight: 300; 
     margin: 0; 
     letter-spacing: 1px; 
 } 
@@ -291,7 +271,7 @@ body {
     margin: 0; 
     font-size: 0.8rem; 
     color: #ccc; 
-    font-weight: lighter; 
+    font-weight: 300; 
 } 
 
 .links:hover { 
@@ -312,6 +292,7 @@ body {
     cursor: pointer; 
     letter-spacing: 1px; 
     border: none; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .common-btn { 
@@ -361,20 +342,4 @@ body {
 
 .blue-text { 
     color: #363D73; 
-
-}
-
-.intro {
-    width: 100%;
-    text-align: center;
-}
-
-.headings {
-    width: 100%;
-    text-align: center;
-}
-
-.greet-heading,
-.my-heading {
-    text-align: center;
 }
