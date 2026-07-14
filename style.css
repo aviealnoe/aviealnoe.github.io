@@ -10,7 +10,26 @@ body {
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif; 
 } 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.intro {
+    text-align: center;
+}
+
+.headings {
+    text-align: center;
+}
+
+.greet-heading,
+.my-heading,
+.sub-heading {
+    text-align: center;
+}
 /* Header Navbar Styles */
 .navbar { 
     display: flex; 
