@@ -301,3 +301,23 @@ h1, h2, h3, h4, h5, h6 {
 .blue-text { 
     color: #FFC7F5; 
 }
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading {
+    margin-bottom: 5px;
+}
+
+.contact-text {
+    margin: 0;
+}
