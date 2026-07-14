@@ -1,6 +1,11 @@
 /*index.css*/
 /* Styles defined for the desktop or the bigger screen devices*/
 
+/* Apply Fredoka font everywhere */
+* {
+    font-family: "Fredoka", sans-serif;
+}
+
 body { 
     margin: 0; 
     padding: 0; 
