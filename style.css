@@ -29,6 +29,7 @@ body {
 .logo .logo-heading { 
     color: #fff; 
     font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
 } 
 
 .menu { 
