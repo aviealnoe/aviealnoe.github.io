@@ -361,12 +361,7 @@ body {
 
 .blue-text { 
     color: #363D73; 
-}
-.hero {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .intro {
