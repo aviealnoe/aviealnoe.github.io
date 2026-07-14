@@ -1,6 +1,7 @@
 /*index.css*/
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap'); 
 
 body { 
     margin: 0; 
@@ -27,6 +28,7 @@ body {
 
 .logo .logo-heading { 
     color: #fff; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .menu { 
@@ -248,22 +250,19 @@ body {
     list-style: none; 
 } 
 
-
-
-
-
-
 /* utility classes */
 .greet-heading { 
     font-size: 1.3rem; 
     font-weight: lighter; 
     margin: 0; 
     letter-spacing: 1px; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .my-heading { 
     font-size: 2.5rem; 
     margin: 0; 
+    font-family: 'Fredoka', sans-serif;
 } 
 
 .sub-heading { 
