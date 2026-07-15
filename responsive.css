@@ -137,8 +137,20 @@
     .contact-form .form-btn {
         width: 100%;
     }
-    .contact-details {
-        width: 80%;
+    .details {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 0 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact-item {
+        width: 100%;
+    }
+    .contact-text {
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     .footer-menu {
         padding: 0 2rem;
