@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about .about-image img { 
     height: 400px; 
-    width: 450px; 
+    width: 550px; 
     padding: 2rem 3rem 2rem 1rem; 
 } 
 
@@ -108,16 +108,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; 
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
-} 
-
-/* Services section styles */
-.services { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    margin: 4.8rem 0; 
-    padding: 0 5rem; 
 } 
 
 .my-row { 
