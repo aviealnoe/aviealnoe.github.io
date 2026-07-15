@@ -106,7 +106,11 @@
     }
     .about .about-image img {
         width: 90%;
+        height: 350px;
+        object-fit: cover;
+        object-position: top;
         padding: 1rem;
+        border-radius: 12px;
     }
     .my-row {
         display: flex;
