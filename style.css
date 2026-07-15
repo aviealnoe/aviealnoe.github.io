@@ -100,12 +100,12 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .port-card .image { 
-    width: 90%; 
+    width: 80%; 
 } 
 
 .port-card .image img { 
     height: 500px; 
-    width: 1000%; 
+    width: 100%; 
     object-fit: cover;     /* crops to fill without stretching */
     object-position: center;
     border-top-right-radius: 20px; 
