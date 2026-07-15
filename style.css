@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .about .about-image img { 
-    height: 400px; 
-    width: 550px; 
+    height: 300px; 
+    width: 400px; 
     padding: 2rem 3rem 2rem 1rem; 
 } 
 
