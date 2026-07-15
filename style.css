@@ -107,7 +107,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 500px; 
     width: 90%; 
     object-fit: cover;     /* crops to fill without stretching */
-    object-position: center;
+    object-position: contair;
+    background-color: #fff;
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
 } 
