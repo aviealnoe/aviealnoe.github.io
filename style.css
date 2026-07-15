@@ -1,4 +1,4 @@
-/*index.css*/
+/*style.css*/
 /* Styles defined for the desktop or the bigger screen devices*/
 
 body { 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    background-image: linear-gradient(90deg, #FFC7F5, #FFC7F5, #FFC7F5); 
+    background-image: linear-gradient(90deg, #000000, #000000, #000000); 
     background-color: transparent; 
 } 
 
@@ -100,12 +100,12 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .port-card .image { 
-    width: 100%; 
+    width: 90%; 
 } 
 
 .port-card .image img { 
     height: 500px; 
-    width: 90%; 
+    width: 1000%; 
     object-fit: cover;     /* crops to fill without stretching */
     object-position: center;
     border-top-right-radius: 20px; 
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center; 
     justify-content: center; 
     border-radius: 20px; 
-    background-image: linear-gradient(#FFC7F5, #FFC7F5, #FFC7F5); 
+    background-image: linear-gradient(#000000, #FFC7F5, #FFC7F5); 
     padding: 1rem; 
 } 
 
