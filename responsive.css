@@ -105,8 +105,8 @@
         padding: 1rem;
     }
     .about .about-image img {
-        width: 105%;
-        height: 350px;
+        width: 100%;
+        height: 400px;
         object-fit: cover;
         object-position: top;
         padding: 1rem;
