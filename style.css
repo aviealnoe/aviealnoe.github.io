@@ -319,3 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-text {
     margin: 0;
 }
+
+#home, #about, #portfolio, #footer {
+    scroll-margin-top: 90px; /* adjust to match your navbar's actual height */
+}
