@@ -160,4 +160,11 @@
     .footer-list-items { 
         margin: 0; 
     } 
+        .my-row {
+    justify-content: space-between;
+}
+
+.my-col {
+    width: 30%;
+}
 }
