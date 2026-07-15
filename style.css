@@ -104,8 +104,10 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 .port-card .image img { 
-    height: 400px; 
+    height: 500px; 
     width: 100%; 
+    object-fit: cover;     /* crops to fill without stretching */
+    object-position: center;
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
 } 
